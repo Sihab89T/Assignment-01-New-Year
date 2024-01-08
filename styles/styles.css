@@ -18,6 +18,7 @@
 
      .banner-text {
          padding: 170px 344px;
+         font-family: Merriweather;
      }
 
      #para {
@@ -27,24 +28,27 @@
 
      /* banner (section 2) */
 
-    
+
      .banner2-title {
          color: #F00;
          font-size: 88px;
          font-weight: 700;
+         font-family: Inter;
+
      }
 
      .banner2-title2 {
          color: #F00;
          font-size: 24px;
          font-weight: 500;
-
+         font-family: Inter;
      }
 
      .banner2-title3 {
          color: #070211;
          font-size: 48px;
          font-style: normal;
+         font-family: Inter;
      }
 
      .banner2-text {
@@ -58,4 +62,127 @@
          margin: auto;
          width: 802.9px;
          height: 500px;
+     }
+
+     /* banner 3 section */
+
+     .banner3 {
+         background-image: url(../images/Vectorrr.png);
+         width: 1320px;
+         height: 600px;
+         display: block;
+         margin: auto;
+         margin-top: 120px;
+     }
+
+     .banner3-title {
+         color: #FFF;
+         font-family: Merriweather;
+         display: block;
+         padding-left: 126px;
+         padding-top: 126px;
+         padding-bottom: 30px;
+         font-size: 64px;
+         font-weight: 900;
+         letter-spacing: 7.04px;
+         width: 642px;
+     }
+
+     .banner3-title-description {
+         color: #FFF;
+         font-family: Inter;
+         width: 697px;
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 30px;
+         padding-left: 126px;
+     }
+
+     .btn-primary {
+         font-size: 20px;
+         font-family: Inter;
+         text-transform: uppercase;
+         padding-left: 140px;
+         padding-top: 26px;
+     }
+
+     .join {
+         background: darkorange;
+         padding: 5px;
+         border-radius: 5px;
+         border-color: white;
+         box-shadow: 2px 2px 2px springgreen;
+         cursor: pointer;
+         font-weight: 700;
+         color: #FFF;
+     }
+
+     .join:hover {
+         color: rgb(0, 0, 0);
+     }
+
+     .left-img {
+         display: flex;
+         flex-direction: column;
+         padding-left: 1002px;
+     }
+
+
+     /* banner 4 section */
+
+     .banner4 {
+         background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+         margin: auto;
+         padding: auto;
+         padding-top: 200px;
+         margin-top: 400px;
+         border-radius: 16px;
+         text-align: center;
+         font-family: Inter;
+         font-size: 32px;
+         font-weight: 600;
+         width: 1320px;
+         height: 600px;
+     }
+
+     .Place {
+         color: #F00;
+     }
+
+     /* Section 1 */
+
+     .section1 {
+         text-align: center;
+         margin-top: 120px;
+     }
+
+     .section1-title {
+         color: #070211;
+         font-family: Inter;
+         font-size: 24px;
+         font-style: normal;
+         font-weight: 500;
+     }
+
+     .section1-title2 {
+         color: #070211;
+         font-family: Merriweather;
+         font-size: 72px;
+         font-weight: 900;
+     }
+
+     .HOLIDAY {
+         color: #F00;
+         font-family: Merriweather;
+         font-size: 72px;
+         font-weight: 900;
+     }
+
+     .section1-title-description {
+         color: rgba(7, 2, 17, 0.60);
+         text-align: center;
+         font-family: Inter;
+         font-size: 20px;
+         font-weight: 500;
+         height: 96px;
      }
