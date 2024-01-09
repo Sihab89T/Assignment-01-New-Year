@@ -1,5 +1,6 @@
      /* first section complete */
 
+
      .banner {
          background-image: url(../images/Banner\ Image.png);
          background-image: url(../images/Banner\ Image.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -239,7 +240,7 @@
      /* Newsletter section */
 
      .container {
-        justify-items: center;
+         justify-items: center;
          margin-top: 800px;
      }
 
@@ -301,13 +302,59 @@
      }
 
      .newsletter form input {
-        width: 210px;
-        height: 72px;
-         
+         width: 210px;
+         height: 72px;
+
      }
 
      .input-tab {
-        width: 200px;
+         width: 200px;
          height: 70px;
-         
+
+     }
+
+     /* Footer section  */
+     
+
+     .footer-container {
+         display: flex;
+         margin-top: 100px;
+         background-color: #070211;
+         justify-content: space-between;
+         padding: 140px auto;
+     }
+
+     .place {
+         color: #FFF;
+         font-family: Inter;
+         font-size: 24px;
+         font-weight: 500;
+         line-height: 40px;
+         padding: 60px;
+     }
+
+     .connect-links {
+         color: #FFF;
+         font-family: Inter;
+         font-size: 24px;
+         font-weight: 500;
+         text-decoration: none;
+         padding: 60px;
+     }
+
+     .social-icon {
+         background-color: #070211;
+         align-items: center;
+         padding-left: 640px;
+     }
+
+     .small {
+         background-color: #070211;
+         color: #FFF;
+         font-family: Inter;
+         font-size: 24px;
+         font-weight: 500;
+         display: flex;
+         justify-content: space-between;
+         padding: 60px;
      }
